@@ -1,0 +1,19 @@
+# Ignore Python-related files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment
+venv/
+
+# Ignore dataset files
+models/datasets/
+*.csv
+*.pkl
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore large cache files
+*.cache
